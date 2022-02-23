@@ -1,0 +1,91 @@
+[
+    {
+        "model-name": "AssetCategory",
+        "resource-file": "asset_categories.json"
+    },
+    {
+        "model-name": "College",
+        "resource-file": "colleges.json"
+    },
+    {
+        "model-name": "Menu",
+        "resource-file": "menus.json"
+    },
+    {
+        "model-name": "Menues",
+        "resource-file": "menues.json"
+    },
+    {
+        "model-name": "BlogCategory",
+        "resource-file": "blog_categories.json"
+    },
+    {
+        "model-name": "Blog",
+        "resource-file": "blogs.json"
+    },
+    {
+        "model-name": "Faq",
+        "resource-file": "faqs.json"
+    },
+    {
+        "model-name": "Country",
+        "resource-file": "countries.json"
+    },
+    {
+        "model-name": "State",
+        "resource-file": "states.json"
+    },
+    {
+        "model-name": "City",
+        "resource-file": "cities.json"
+    },
+    {
+        "model-name": "Functional_area",
+        "resource-file": "functional_areas.json"
+    },
+    {
+        "model-name": "skil",
+        "resource-file": "skils.json"
+    },
+    {
+        "model-name": "skill",
+        "resource-file": "skills.json"
+    },
+    {
+        "model-name": "work_type",
+        "resource-file": "work_types.json"
+    },
+    {
+        "model-name": "designation",
+        "resource-file": "designations.json"
+    },
+    {
+        "model-name": "Industry",
+        "resource-file": "industries.json"
+    },
+    {
+        "model-name": "Education",
+        "resource-file": "education.json"
+    },
+    {
+        "model-name": "Timezone",
+        "resource-file": "timezones.json"
+    },
+    {
+        "model-name": "Candidate",
+        "resource-file": "candidates.json"
+    },
+    {
+        "model-name": "Currency",
+        "resource-file": "currencies.json"
+    },
+    {
+
+        "model-name": "Employer",
+        "resource-file": "employers.json"
+    },
+    {
+        "model-name": "Specialist",
+        "resource-file": "specialists.json"
+    }
+]

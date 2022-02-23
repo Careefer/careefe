@@ -1,0 +1,11 @@
+<div class="form-group form-md-line-input has-info">
+	@if( $errors->has('[% field_name %]'))
+	    <span class="err-msg">
+	        [% field_validation_helper %]
+	    </span>
+	@endif
+    [% field_input %]
+    [% field_label %]
+</div>
+
+

@@ -1,0 +1,6 @@
+
+Route::group([
+    [% prefix %] 'middleware'=>['auth:admin']
+], function () {
+[% routes %]
+});

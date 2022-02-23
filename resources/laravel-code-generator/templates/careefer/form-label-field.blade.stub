@@ -1,0 +1,4 @@
+<label for="[% field_name %]">
+	<strong>[% field_title %]</strong>
+</label>
+

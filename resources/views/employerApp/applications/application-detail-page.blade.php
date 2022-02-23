@@ -1,0 +1,19 @@
+@extends('layouts.web.web')
+@section('content')
+<div class="dashboard-wrapper">
+   <div class="container">
+      <h1 class="heading-tab">My Account</h1>
+      <div class="main-tab-wrapper clearfix">
+        @include('layouts.web.left_menue')
+         <div class="main-tabs-content">
+            <div class="emp-content emp-current employer-app employer-detail" id="emp-application">
+              @include('employerApp.applications.include.application-detail')
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="bottom-image">
+   Image
+</div>
+@endsection

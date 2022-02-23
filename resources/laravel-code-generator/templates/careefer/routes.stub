@@ -1,0 +1,20 @@
+    Route::get('/', 'AdminApp\[% controller_name %]@index')
+         ->name('[% index_route_name %]');
+         
+    Route::get('/create','AdminApp\[% controller_name %]@create')
+         ->name('[% create_route_name %]');
+         
+    Route::get('/show/{[% model_name_singular_variable %]}','AdminApp\[% controller_name %]@show')
+         ->name('[% show_route_name %]')[% route_id_clause %];
+         
+    Route::get('/{[% model_name_singular_variable %]}/edit','AdminApp\[% controller_name %]@edit')
+         ->name('[% edit_route_name %]')[% route_id_clause %];
+         
+    Route::post('/', 'AdminApp\[% controller_name %]@store')
+         ->name('[% store_route_name %]');
+         
+    Route::put('[% model_name_snake %]/{[% model_name_singular_variable %]}', 'AdminApp\[% controller_name %]@update')
+         ->name('[% update_route_name %]')[% route_id_clause %];
+         
+    Route::get('/{[% model_name_singular_variable %]}/delete','AdminApp\[% controller_name %]@destroy')
+         ->name('[% destroy_route_name %]')[% route_id_clause %];

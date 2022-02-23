@@ -1,0 +1,119 @@
+																																																																																																																																																																																																																																																																		
+.parsley-errors-list li,
+.err-msg .help-block{
+  opacity: 1 !important;
+  position:relative !important;
+  color:red!important;
+} 
+.parsley-errors-list{
+	margin: 0;
+}
+.parsley-errors-list li{
+	margin: 5px 0;
+	/*line-height: 20px;*/
+	font-size: 14px;
+}
+
+/*.parsley-errors-list .parsley-required{
+	margin: 5px 0;
+	line-height: 20px;
+	font-size: 14px;
+}*/
+
+.page-logo img{background-color: white;width: 70%;margin-bottom: 50px;}
+
+/* faq css*/
+
+.faq-form .add-more-btn{
+	text-align: right;
+	padding: 0px 15px 15px 0px;
+}
+.faq-form .remove-ques-btn{
+	text-align: right;
+	padding: 15px 15px 15px 0px;
+	position: absolute;
+	right: 110px;
+	top: 100%;
+	z-index:999;
+}
+.ques_section{
+	position: relative;
+}
+.padding_0{padding: 0px;}
+
+.color-red{color: red}
+
+.website-loader{
+	position: fixed;
+	margin: 0 auto;
+	left: 40%;
+	top: 20%;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+
+.company_list_letter_filter{
+	cursor: pointer;
+}
+
+.success_msg{
+	color:green;
+}
+
+.save-star{cursor: pointer!important;}
+.hide{display: none;}
+
+/* 05-06-2020 */
+.portlet {
+	overflow-x: auto;
+}
+
+.admin-rating
+{
+	list-style-type: none;
+}
+.admin-rating li
+{
+	display: inline;
+	padding-left: 2px;
+}
+.select2-selection.select2-selection--single{
+    border: 1px solid #c2cad8;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.select2.select2-container {
+	width: 100% !important;
+}
+.select2-selection.select2-selection--single:after {
+	position: absolute;
+	content: "";
+	right: 10px;
+	top: 50%;
+	transform:translateY(-50%);
+	width: 0; 
+  	height: 0; 
+  	border-left: 5px solid transparent;
+  	border-right: 5px solid transparent;
+  	border-top: 7px solid #333;
+}
+.select2.select2-container--open .select2-selection.select2-selection--single:after {
+	transform: rotate(180deg) translateY(50%);
+}
+.select-group {
+    display: flex;
+    flex-flow: wrap;
+}
+.select-group .parsley-errors-list {
+	order:3;
+}
+.portlet .page-bar{
+	display: none;
+}
+.pagination-panel{
+	margin-left: 2px;
+}

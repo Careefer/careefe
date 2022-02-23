@@ -1,0 +1,42 @@
+@extends('[% layout_name %]')
+@section('content')
+    <div class="page-content">
+        <div class="portlet light bordered">
+            <div class="page-bar">
+                <ul class="page-breadcrumb">
+                    <li>
+                        <a href="{{ route('[% index_route_name %]') }}">[% model_plural %]</a>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <span>{{ isset([% model_header %]) ? [% model_header %] : '[% model_name_title %]' }}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <h4 class="caption-subject bold uppercase">
+                                <i class="fa fa-eye"></i>&nbspShow [% model_name_title %]
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            [% table_rows %]
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button type="button" class="btn red" onclick="redirect_url($(this),'{{ route('[% index_route_name %]') }}')">
+                                        Cancel
+                                    </button>
+                                </td>
+                            </tr>    
+                        </table>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
